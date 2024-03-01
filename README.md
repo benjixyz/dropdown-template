@@ -2,7 +2,7 @@
 # Dropdown Template
 
 This template was inspired by the hosting provider https://aeza.net/. 
-It is not intended to be an imitation, but rather an exercise and source of inspiration.
+<br>It is not intended to be an imitation, but rather an exercise and source of inspiration.</br>
 
 ## Color Palette
 
