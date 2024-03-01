@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.cont {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.dropdown:first-child {
+    margin-left:3rem
+}
+
+.dropdown span:hover {
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+
+.dropdown-item .header svg{
+    width: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.300);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.dropdown .tag span {
+    padding: 1.1rem;
+}
+
+.dropdown-item .header  {
+    display: flex;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.dropdown-item .header:not(.dropdown-item .header:first-child) {
+    margin-top: 2rem;
+}
+
+.dropdown-item .content {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-item .content.spacing ul li{
+    margin-bottom: 0.25rem;
+}
+
+.dropdown-item .content ul li p {
+    margin-top: 0.01rem;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.dropdown-item .content ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.dropdown-item .content ul li a:hover {
+    color: #18C9E1;
+    text-decoration: underline solid rgba(24, 201, 225, 0.3);
+}
+
+.dropdown-item .header span {
+    cursor: default;
+}
+
+.line {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.151);
+}
